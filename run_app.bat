@@ -1,0 +1,6 @@
+@echo off
+cd /d "%~dp0"
+echo Brain Tumor Detection App চালু হচ্ছে...
+echo একটু অপেক্ষা করো, ব্রাউজার নিজে থেকে খুলে যাবে...
+streamlit run app.py
+pause
